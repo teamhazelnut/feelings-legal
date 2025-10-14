@@ -1,7 +1,7 @@
 # Privacy Policy – Feelings
 
 **Effective Date:** 15/10/2025  
-**Developer:** Team Hazelnut (Abhishek Kumar Yadav, Alok Kumar Rajak)  
+**Developer:** Team Hazelnut 
 **Contact:** [reach.feelings@gmail.com](mailto:reach.feelings@gmail.com)
 
 ---
