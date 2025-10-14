@@ -48,14 +48,26 @@
       border-top: 1px solid #eee;
       margin-top: 40px;
     }
+    .header-content {
+      display: flex; 
+      align-items: center; 
+      gap: 15px;
+    }
+
+    .header-content h1, 
+    .header-content p {
+      margin: 0; 
+    }
   </style>
 </head>
 <body>
 
-  <header>
+  <header class="header-content">
     <img src="assets/logo.png" alt="Feelings Logo">
-    <h1>Privacy Policy – Feelings</h1>
-    <p><strong>Effective Date:</strong> 15/10/2025</p>
+    <div>
+        <h1>Privacy Policy – Feelings</h1>
+        <p><strong>Effective Date:</strong> 15/10/2025</p>
+    </div>
   </header>
 
   <div class="content">
