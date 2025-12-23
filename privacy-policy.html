@@ -50,72 +50,154 @@
       margin-top: 40px;
     }
     .header-content {
-      display: flex; 
-      align-items: center; 
+      display: flex;
+      align-items: center;
       justify-content: center;
       gap: 15px;
     }
-
-    .header-content h1, 
+    .header-content h1,
     .header-content p {
-      margin: 0; 
+      margin: 0;
     }
   </style>
 </head>
 <body>
 
-  <header class="header header-content">
-    <img src="assets/logo.png" alt="Feelings Logo">
-    <div>
-        <h1>Privacy Policy – Feelings</h1>
-        <p><strong>Effective Date:</strong> 12/11/2025</p>
-    </div>
-  </header>
-
-  <div class="content">
-    <p><strong>Developer:</strong> Team Hazelnut<br>
-    <strong>Contact:</strong> <a href="mailto:reach.feelings@gmail.com">reach.feelings@gmail.com</a></p>
-
-    <h2>1. Introduction</h2>
-    <p>Welcome to <strong>Feelings</strong>, a mobile application created by <strong>Team Hazelnut</strong>. Feelings is designed to help couples build better communication, understanding, and creativity in their relationship through shared activities, memories, and check-ins.</p>
-
-    <h2>2. Information We Collect</h2>
-    <p><strong>a. Account Information</strong><br>
-    Name, Email address, Profile image (Cloudinary), Gender, Love language, Authentication data (Google/Firebase).</p>
-    <p><strong>b. Relationship and Activity Data</strong><br>
-    Shared memories (images in Google Drive with public links), messages (including text and <strong>voice messages/audio recordings</strong>), journals, mood, bucket list items, questions, relationship insights, favorite date ideas, dates, and events.</p>
-    <p><strong>c. Location Data</strong><br>
-    Used only to calculate distance between partners, not stored or shared.</p>
-    <p><strong>d. Device Information</strong><br>
-    Device type, OS version, crash logs for debugging.</p>
-
-    <h2>3. How We Use Your Information</h2>
-    <p>We use your data to <strong>enable app features (such as delivering your voice messages and secret notes)</strong>, personalize experience, improve performance, provide support, and ensure security.</p>
-
-    <h2>4. How We Share Your Information</h2>
-    <p>We don’t sell your data. Limited sharing occurs only with your partner, service providers (Firebase, Cloudinary, Google Drive), or when legally required.</p>
-
-    <h2>5. Data Storage & Security</h2>
-    <p>Your data is stored securely on our service providers, <strong>Firebase</strong> and <strong>Cloudinary</strong>. Media files, such as <strong>audio recordings and voice messages</strong>, are stored using <strong>Firebase Storage</strong> or <strong>Cloudinary</strong> to deliver them to your partner. Google Drive access is granted only with user consent and limited to selected uploads.</p>
-
-    <h2>6. Your Rights</h2>
-    <p>You can access, modify, delete data, revoke Drive permissions, or request account deletion anytime. For concerns, contact <a href="mailto:reach.feelings@gmail.com">reach.feelings@gmail.com</a>.</p>
-
-    <h2>7. Children’s Privacy</h2>
-    <p>Feelings is for users aged 13+. Accounts found under this age are deleted immediately.</p>
-
-    <h2>8. Updates to Policy</h2>
-    <p>Policy may change as new features like AI or premium plans are added. Updates will appear in-app and here.</p>
-
-    <h2>9. Contact Us</h2>
-    <p><strong>Team Hazelnut</strong><br>
-    📧 <a href="mailto:reach.feelings@gmail.com">reach.feelings@gmail.com</a><br>
-    Secondary: <a href="mailto:fromteamhazelnut@gmail.com">fromteamhazelnut@gmail.com</a></p>
+<header class="header header-content">
+  <img src="assets/logo.png" alt="Feelings Logo">
+  <div>
+    <h1>Privacy Policy – Feelings</h1>
+    <p><strong>Effective Date:</strong> 12/11/2025</p>
   </div>
+</header>
 
-  <footer>
-    © 2025 Feelings by Team Hazelnut. All rights reserved.
-  </footer>
+<div class="content">
+  <p><strong>Developer:</strong> Team Hazelnut<br>
+  <strong>Contact:</strong> <a href="mailto:reach.feelings@gmail.com">reach.feelings@gmail.com</a></p>
+
+  <h2>1. Introduction</h2>
+  <p>
+    Welcome to <strong>Feelings</strong>, a mobile application created by <strong>Team Hazelnut</strong>.
+    Feelings is designed to help couples communicate better, reflect together,
+    and intentionally grow their relationship through shared activities,
+    journals, conversations, and emotional check-ins.
+  </p>
+
+  <h2>2. Information We Collect</h2>
+
+  <p><strong>a. Account Information</strong><br>
+    Name, email address, profile image (Cloudinary), gender, love language preferences,
+    and authentication data (Google / Firebase).
+  </p>
+
+  <p><strong>b. Relationship and Activity Data</strong><br>
+    Chat messages (text), <strong>voice messages and audio recordings</strong>,
+    shared journals, private journals, secret notes, memory images,
+    bucket list items, mood entries, questions, relationship insights,
+    milestones, date plans, calendar events, and other in-app interactions.
+  </p>
+
+  <p><strong>c. Location Data</strong><br>
+    Approximate location may be used only to calculate distance between connected partners.
+    Location data is not continuously tracked, stored, or shared.
+  </p>
+
+  <p><strong>d. Device & Diagnostic Information</strong><br>
+    Device type, operating system version, crash logs, and performance diagnostics
+    collected via Firebase Crashlytics to improve app stability.
+  </p>
+
+  <h2>3. How We Use Your Information</h2>
+  <p>
+    We use collected information to enable core app functionality
+    (such as chat, journals, voice messaging, reminders, and alerts),
+    personalize the user experience,
+    maintain security,
+    improve performance,
+    and provide user support when requested.
+  </p>
+
+  <h2>4. How We Share Your Information</h2>
+  <p>
+    We do not sell or rent your personal data.
+    Your information is shared only:
+    with your connected partner,
+    with trusted service providers (Firebase, Cloudinary, Google Drive),
+    or when legally required.
+  </p>
+
+  <h2>5. End-to-End Encryption</h2>
+  <p>
+    Feelings uses <strong>end-to-end encryption (E2EE)</strong> to protect sensitive
+    relationship data between connected partners.
+  </p>
+  <p>
+    The following data is encrypted so that only you and your partner can access it:
+  </p>
+  <ul>
+    <li>Chat messages (text)</li>
+    <li>Voice messages and audio recordings</li>
+    <li>Shared journals and private journals</li>
+    <li>Secret notes</li>
+    <li>Encrypted references to images stored via Google Drive</li>
+  </ul>
+  <p>
+    For images stored in Google Drive, only encrypted references are stored and shared
+    within the app. The underlying media remains accessible only through
+    user-authorized Google Drive access.
+  </p>
+  <p>
+    Encryption keys are generated and managed on user devices.
+    We do not have access to encrypted content.
+  </p>
+  <p>
+    During feature upgrades, previously unencrypted content may be securely migrated
+    to encrypted storage using a background (lazy) migration process.
+  </p>
+
+  <h2>6. Data Storage & Security</h2>
+  <p>
+    Encrypted data is stored using secure infrastructure provided by Firebase
+    and Cloudinary. Media files such as images and audio recordings are stored
+    only to enable delivery between connected partners.
+    Google Drive access is granted solely with explicit user consent
+    and limited to selected uploads.
+  </p>
+
+  <h2>7. Data Retention & Deletion</h2>
+  <p>
+    You may delete individual content or your entire account from within the app.
+    Account deletion permanently removes associated data from our systems.
+    Due to encryption, some data may not be recoverable once deleted.
+  </p>
+  <p>
+    You may also request account or data deletion by contacting
+    <a href="mailto:reach.feelings@gmail.com">reach.feelings@gmail.com</a>.
+  </p>
+
+  <h2>8. Children’s Privacy</h2>
+  <p>
+    Feelings is intended for users aged 13 and above.
+    Accounts identified as belonging to users under this age are removed immediately.
+  </p>
+
+  <h2>9. Updates to This Policy</h2>
+  <p>
+    This Privacy Policy may be updated as features evolve.
+    Any changes will be reflected within the app and on this page.
+  </p>
+
+  <h2>10. Contact Us</h2>
+  <p>
+    <strong>Team Hazelnut</strong><br>
+    📧 <a href="mailto:reach.feelings@gmail.com">reach.feelings@gmail.com</a><br>
+    Secondary: <a href="mailto:fromteamhazelnut@gmail.com">fromteamhazelnut@gmail.com</a>
+  </p>
+</div>
+
+<footer>
+  © 2025 Feelings by Team Hazelnut. All rights reserved.
+</footer>
 
 </body>
 </html>
